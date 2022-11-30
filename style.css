@@ -1,0 +1,137 @@
+body {
+  font-family: "Orbitron";
+}
+.container {
+  padding: 4rem;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-container img {
+  width: 120px;
+}
+.list {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: auto;
+  list-style: none;
+}
+.list .list-item {
+  padding: 0.1rem 1.6rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.4s ease-in;
+}
+.list .list-item.active,
+.list .list-item:hover {
+  font-size: 1.3rem;
+  transform: translateY(-3px);
+}
+.list .list-item.active::after,
+.list .list-item:hover::after {
+  background: black;
+  display: block;
+  width: 90%;
+  height: 2px;
+  content: "";
+  margin-left: 5%;
+}
+.button-group {
+  display: flex;
+}
+.search-icon {
+  width: 20px;
+  margin-right: 12px;
+}
+.nav-button,button.button-email,.button-join {
+  width: fit-content;
+  padding: 0.2rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  background: transparent;
+  font-family: "Poppins";
+  margin-left: 12px;
+}
+button.button-email{
+  font-family: inherit;
+}
+button.button-join{
+  background: black;
+  color: white;
+  font-family: inherit;
+
+}
+.hero-container {
+  display: flex;
+  padding: 3rem 0;
+  position: relative;
+}
+.hero-container > div > img{
+  width: 400px;
+}
+.hero-container-right > div {
+  position: relative;
+  padding: 2rem;
+}
+span.globe {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+span.globe > img{
+  width: 50px;
+}
+span.square {
+  position: absolute;
+  bottom: 5rem;
+  z-index: -1;
+  left: 3.6rem;
+}
+span.star {
+  position: absolute;
+  right: 12rem;
+  top: 5rem;
+}
+span.star > img{
+  width: 55px;
+}
+.hero-container-right {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  /* height: 100%; */
+}
+p.hero-description {
+  font-size: 1.1rem;
+  font-family: 'Poppins';
+  color: #555;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+h1.hero-heading {
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+.icons span {
+  margin: 12px;
+}
+
+h4.contact-heading {
+  color: #555;
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+  position: relative;
+}
+h4.contact-heading:before {
+  position: absolute;
+  content: '';
+  background: url('./assets/start.png') no-repeat;
+  width: 45px;
+  height: 44px;
+  background-size: cover;
+  left: 11rem;
+  bottom: -2rem;
+}
