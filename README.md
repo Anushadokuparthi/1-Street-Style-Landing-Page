@@ -1,8 +1,11 @@
-# 1. Street-Style-Landing-Page
+# 1. Street Style Landing Page
 Street Style Landing Page
 
 - HTML5
 - Css3
+
+### Time Taken
+- 3 hours
 
 ## [Deployment Link](https://anusha-streetstyle1.netlify.app)
 
