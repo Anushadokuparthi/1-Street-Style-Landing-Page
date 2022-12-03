@@ -4,7 +4,7 @@ Street Style Landing Page
 - HTML5
 - Css3
 
-## [Deployment Link]([https://anusha-streetstyle1.netlify.app])
+## [Deployment Link](https://anusha-streetstyle1.netlify.app)
 
 
 ### Output
