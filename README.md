@@ -7,7 +7,7 @@ Street Style Landing Page
 ### Time Taken
 - 3 hours
 
-## [Deployment Link]([https://app.netlify.com/sites/anusha-streetstyle1/overview](https://anusha-streetstyle1.netlify.app/))
+## [Deployment Link](https://anusha-streetstyle1.netlify.app/)
 
 
 ### Output
